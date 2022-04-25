@@ -14,9 +14,9 @@ Todos estos ejemplos utilizan el release de prueba v0.0.1-no-estable el cual con
  ``` 
 1. Descargar release:
     
-    ```bash
-    wget https://github.com/rolandoaliare/odoo_info_public/archive/refs/tags/v0.0.2-no-estable.tar.gz
-    ```
+```
+wget https://github.com/rolandoaliare/odoo_info_public/archive/refs/tags/v0.0.2-no-estable.tar.gz
+```
 2. Extraer archivos:
 ```
 tar -xf v0.0.2-no-estable.tar.gz 
@@ -33,4 +33,22 @@ chmod a+x script_instalacion_odoo_pro.sh
 ./script_instalacion_odoo_pro.sh
 ```
 
-*todo*: agregar otra info a este repositorio.
+5. Copiar y resguardar la información de la instalación que se muestra al final. Ejemplo:
+ ```
+-----------------------------------------------------------
+Done! The Odoo server is up and running. Specifications:
+Port: 8069
+User service: odoo
+Configuraton file location: /etc/odoo-server.conf
+Logfile location: /var/log/odoo
+User PostgreSQL: odoo
+Code location: odoo
+Addons folder: odoo/odoo-server/addons/
+Password superadmin (database): vqYdiJuAMZsnxob0
+Start Odoo service: sudo service odoo-server start
+Stop Odoo service: sudo service odoo-server stop
+Restart Odoo service: sudo service odoo-server restart
+Nginx configuration file: /etc/nginx/sites-available/_
+-----------------------------------------------------------
+```
+ *todo*: agregar otra info a este repositorio.
