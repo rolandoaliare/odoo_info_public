@@ -3,7 +3,7 @@ Repositorio para dejar accesible info sobre odoo. En un futuro se verá si es ne
 
 ## Descarga y ejecución
 
-Todos estos ejemplos utilizan el release de prueba v0.0.1-no-estable el cual contiene un comprimido de un repositorio con el/los scripts. Destro de ese comprimido (tar) se genera una estructura de directorios <nombre repo>-<tag-release> en nuestro caso el repo se llama odoo_info_public y el tag del release es v0.0.1-no-estable por lo que la estructura sería
+Todos estos ejemplos utilizan el release de prueba v0.0.2-no-estable el cual contiene comprimido un repositorio con el/los scripts. Dentro de este archivo tar.gz se genera una estructura de directorios <nombre repo>-<tag-release> en nuestro caso el repo se llama odoo_info_public y el tag del release es v0.0.2-no-estable por lo que la estructura será:
 
  ```
  /odoo_info_public-0.0.2-no-estable
@@ -51,4 +51,5 @@ Restart Odoo service: sudo service odoo-server restart
 Nginx configuration file: /etc/nginx/sites-available/_
 -----------------------------------------------------------
 ```
+ 
  *todo*: agregar otra info a este repositorio.
