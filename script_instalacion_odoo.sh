@@ -1,4 +1,6 @@
 #!/bin/bash
+# actualizamos ubuntu
+sudo apt update && sudo apt upgrade -y
 #Creamos el usuario y grupo de sistema 'odoo':
 sudo adduser --system --quiet --shell=/bin/bash --home=/opt/odoo --gecos 'odoo' --group odoo
 #Creamos en directorio en donde se almacenará el archivo de configuración y log de odoo:
